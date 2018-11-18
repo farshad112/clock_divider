@@ -1,0 +1,17 @@
+{
+	"ips":[
+		{
+			"name":"dff",
+			"author": "Farshad",
+			"repo":
+			{
+				"git-url":"https://github.com/farshad112/DFF.git",
+				"zip-url":"https://github.com/farshad112/DFF/archive/master.zip"
+			},
+            "verilog-files": {
+                    "url": "https://github.com/farshad112/DFF/blob/master/rtl/verilog/dff.v"
+            },
+            "flist_order": 1            		 	
+		}
+	]
+}
