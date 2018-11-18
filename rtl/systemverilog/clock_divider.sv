@@ -17,8 +17,7 @@
 
 `timescale 1ns/1ps
 module clock_divider#(
-						parameter DIV_WIDTH = 2,    						// Number of divider
-						parameter FREQ_DIV_MODE = 2**DIV_WIDTH				// FREQ_DIV VALUE (n)
+						parameter DIV_WIDTH = 2    							// Number of divider
 					) (
 						input wire 					clk_in,					// clock in
 						input wire [DIV_WIDTH-1:0]	div_ctrl,				// divider control
